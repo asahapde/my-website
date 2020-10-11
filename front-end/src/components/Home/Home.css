@@ -13,3 +13,18 @@
 a {
     color: inherit;
 }
+
+.image {
+    border: black;
+}
+
+.resume:hover {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.uwo {
+    color: #46227C;
+    background-color: inherit;
+
+}
