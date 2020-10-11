@@ -7,7 +7,7 @@ import './Nav.css';
 class NavComponent extends Component {
     render() {
         return (
-            <Navbar collapseOnSelect expand="md" bg="light" variant="light" sticky="top">
+            <Navbar collapseOnSelect expand="md" className="navColor" variant="light" sticky="top">
                 <Link to='/'>
                     <Navbar.Brand href="#home">Abdullah Sahapdeen</Navbar.Brand>
                 </Link>
@@ -20,8 +20,8 @@ class NavComponent extends Component {
                         <Link to='/experience'>
                             <Nav.Link href="#about">Experience</Nav.Link>
                         </Link>
-                        <Link to='/project'>
-                            <Nav.Link href="#about">Project</Nav.Link>
+                        <Link to='/projects'>
+                            <Nav.Link href="#about">Projects</Nav.Link>
                         </Link>
                     </Nav>
 

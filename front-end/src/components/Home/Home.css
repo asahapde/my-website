@@ -1,0 +1,15 @@
+.iconLinked:hover {
+    color: #2867B2;
+}
+
+.iconGithub:hover {
+    color: grey;
+}
+
+.iconMail:hover {
+    color: lightblue;
+}
+
+a {
+    color: inherit;
+}
