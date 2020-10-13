@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
-import './Project.css';
+import React, { Component } from "react";
+import "./Project.css";
 
 class Project extends Component {
-    render () {
-        return (
-            <h1> We are in Project</h1>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <h1>Projects</h1>
+        <p>Coming soon..s</p>
+      </div>
+    );
+  }
 }
 
 export default Project;

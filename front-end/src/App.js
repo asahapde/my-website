@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
-import NavComponent from './components/Navbar/Nav';
-import About from './components/About/About';
-import Experience from './components/Experience/Experience';
-import Project from './components/Project/Project';
-import Home from './components/Home/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import NavComponent from "./components/Navbar/Nav";
+import About from "./components/About/About";
+import Experience from "./components/Experience/Experience";
+import Project from "./components/Project/Project";
+import Home from "./components/Home/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -18,10 +18,8 @@ function App() {
           <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Project} />
         </Switch>
-
       </div>
     </Router>
-
   );
 }
 

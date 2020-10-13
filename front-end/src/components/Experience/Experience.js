@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
-import './Experience.css';
+import React, { Component } from "react";
+import "./Experience.css";
 
 class Experience extends Component {
-    render () {
-        return (
-            <h1>We are in Experience</h1>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <h1>Experience</h1>
+        <p>Coming soon...</p>
+      </div>
+    );
+  }
 }
 
 export default Experience;

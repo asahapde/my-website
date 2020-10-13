@@ -1,30 +1,33 @@
 .iconLinked:hover {
-    color: #2867B2;
+  color: #2867b2;
 }
 
 .iconGithub:hover {
-    color: grey;
+  color: grey;
 }
 
 .iconMail:hover {
-    color: lightblue;
+  color: lightblue;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 .image {
-    border: black;
+  border: black;
 }
 
 .resume:hover {
-    text-decoration: none;
-    color: lightblue;
+  text-decoration: none;
+  color: lightblue;
 }
 
 .uwo {
-    color: #46227C;
-    background-color: inherit;
+  color: #46227c;
+  background-color: inherit;
+}
 
+.container {
+  text-align: center;
 }
